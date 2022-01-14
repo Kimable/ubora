@@ -1,0 +1,133 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&family=Poppins:wght@400;500;700&display=swap");
+
+:root {
+  --primary: #294667;
+  --primaryAlt: #0d67d6;
+  --primaryAlt2: #0fb4f7;
+  --secondary: #ffa500;
+  --light: #fafafa;
+  --dark: #1c1d24;
+}
+
+h1,
+h2,
+h3 {
+  font-family: "Playfair Display", serif;
+}
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+img {
+  width: 100%;
+}
+
+.mission {
+  background-color: var(--primary);
+  color: var(--light);
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.mission h2 {
+  color: #ffa500;
+  text-transform: uppercase;
+}
+
+/* Navbar */
+nav a {
+  text-transform: uppercase;
+}
+.navbar-nav .nav-link {
+  color: var(--light) !important;
+}
+.bg-light {
+  background-color: var(--primary) !important;
+}
+.navbar-nav .btn-primary {
+  background-color: var(--secondary);
+  border: none;
+  color: var(--dark);
+}
+
+.btn-primary {
+  background-color: var(--secondary);
+  border: none;
+  color: var(--dark);
+}
+.hero {
+  background: linear-gradient(0deg, var(--primaryAlt2), var(--primary));
+  color: var(--light);
+}
+
+/* Services Section and Page */
+.services-intro a {
+  text-decoration: none;
+  color: var(--primaryAlt);
+}
+
+/* Contact Page */
+.contact-page {
+  background-color: var(--primary);
+  color: var(--light);
+}
+
+/* Cleaning Page */
+.cleaning-page {
+  background-color: var(--light);
+}
+/* Footer Region */
+.clients {
+  background-color: var(--secondary);
+}
+.clients h2 {
+  color: #fff;
+  text-align: center;
+  padding: 1rem 2rem;
+  text-transform: uppercase;
+  background-color: var(--primary);
+  display: inline-block;
+  border-radius: 0.5rem;
+  margin-bottom: 2rem;
+}
+footer {
+  color: var(--light);
+  text-align: center;
+  background-color: var(--primary);
+}
+.footer-links a {
+  text-decoration: none;
+  color: #fff;
+  display: inline-block;
+  padding: 0.3rem;
+  text-transform: uppercase;
+}
+
+footer .brand img {
+  width: 20%;
+}
+
+.social a,
+.contact-footer a {
+  color: var(--light);
+  text-decoration: none;
+  display: inline-block;
+  margin: 0 0.3rem;
+}
+.social img {
+  width: 20px;
+  height: 20px;
+}
+
+.contact-footer span {
+  display: inline-block;
+  padding: 0 1rem;
+}
+
+/* Mrdia queries for responsiveness */
+@media screen and (max-width: 700px) {
+  footer .brand img {
+    width: 50%;
+  }
+}
