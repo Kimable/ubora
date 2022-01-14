@@ -137,6 +137,9 @@ footer.innerHTML = `
         <div class="brand">
           <img src="img/ubora-logo-2.png" alt="Ubora Logo" />
           <h5>Services Limited</h5>
+          <a class="btn btn-primary" href="ubora-brochure.pdf" download
+            >Download Our Brochure</a
+          >
         </div>
         <div class="footer-links p-3">
           <a href="index.html">Home</a>
@@ -156,11 +159,13 @@ footer.innerHTML = `
         </div>
         <div class="contact-footer p-3">
           <span>Call Us: <a href="tel:+2540703959529">0703-959529</a> </span>
-          <span>Email Us: <a href="tel:+2540703959529">0703-959529</a> </span>
+          <span>Email Us: <a href="mailto:info@uboraservices.co.ke">info@uboraservices.co.ke</a> </span>
         </div>
         <div class="copyright p-3">
-          <p>&COPY; 2022 Ubora Services Limited</p>
+          <p>&COPY; 2022 Ubora Services</p>
         </div>
       </div>
     </footer>
 `;
+
+// Slider
